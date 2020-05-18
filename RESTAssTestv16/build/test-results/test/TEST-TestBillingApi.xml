@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestBillingApi" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-17T20:25:13" hostname="MacBook-Pro-de-Leys.local" time="4.164">
+  <properties/>
+  <testcase name="Test1" classname="TestBillingApi" time="4.164"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts/10620414/stats?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1x1ef82520d3ff742f1e0d1a0f6948009e0bbe8e24_v2
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body test:{"ad_events":{"7d":{"change":{"mails":0,"phone_views":0,"views":-92.3076923076923},"count":{"mails":0,"phone_views":0,"views":1}}}}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
